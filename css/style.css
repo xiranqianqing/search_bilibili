@@ -1,0 +1,85 @@
+#window {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#search {
+	position: relative;
+	flex-direction: row;
+	border-radius: 10px;
+	background-color: skyblue;
+}
+
+#searchButton {
+	background: url(../img/find_magnifier_magnifying_glass_search_zoom_72px_1225492_easyicon.net.ico) no-repeat;
+	background-position: center;
+	background-size: 25%;
+	padding: 16px 20px;
+	border-radius: 0px 10px 10px 0px;
+	outline: none;
+	border:none;
+	float: right;
+	font-size: 2rem;
+}
+#searchButton:hover{
+	transition: 1s;
+	background-size: 40%;
+	background-color: salmon;
+}
+#searchButton:active{
+	background: url(../img/find_magnifier_magnifying_glass_search_zoom_72px_1225492_easyicon.net.ico) no-repeat;
+	background-position: center;
+	background-size: 50%;
+	transition: 0s;
+}
+#search:hover{
+	border-radius: 10px aquamarine;
+	box-shadow:  0 -1px 1px rgba(0,0,0,.1), 0px 4px 4px 4px rgba(126, 245, 255, 0.2);
+	transition: 1s;
+	background-color: white;
+}
+#textInput {
+	width: 450px;
+	padding: 10px 10px 10px 20px;
+	background: white;
+	border: none;
+	border-radius: 10px 0px 0px 10px;
+	outline: none;
+	display: inline;
+	text-align: start;
+	font-size: 2rem;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+input, [contenteditable] {
+    caret-color: salmon; /* 光标颜色 */ 
+ }
+ 
+ #logo{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+ }
+ #name{
+	 font-size: 300%;
+	 font-family: "comic sans ms";
+	 text-align: center;
+	 padding-left: 20px;
+ }
+ #img{
+	 display:block;
+	 max-width:60%;
+	 max-height: 60%;
+	 text-align: center;
+ }
+ #ganbei{
+	 display: none;
+	 font-size: 250%;
+	 font-family: "comic sans ms";
+ }
+ 
